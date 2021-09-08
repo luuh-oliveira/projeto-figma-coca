@@ -5,4 +5,239 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%), linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
+    mix-blend-mode: normal;
+    color: white;
+    user-select: none;
+}
+
+header{
+    height: 100px;
+}
+
+.menu{
+    position: absolute;
+    width: 97px;
+    height: 19px;
+    left: 75px;
+    top: 40px;
+}
+
+.menuBurguer{
+    width: 36px;
+    height: 16px;
+    left: 75px;
+    top: 41px;
+}
+
+.linha1, .linha2, .linha3{
+    border: 1px solid #FFFFFF;
+
+}
+
+.linha1{
+    position: absolute;
+    width: 24px;
+    height: 0px;
+    left: 75px;
+    top: 41px;
+}
+
+.linha2{
+    position: absolute;
+    width: 36px;
+    height: 0px;
+    left: 75px;
+    top: 49px;
+}
+
+.linha3{
+    position: absolute;
+width: 24px;
+height: 0px;
+left: 75px;
+top: 57px;
+}
+
+.menuText{
+    position: absolute;
+    width: 41px;
+    height: 19px;
+    left: 131px;
+    top: 40px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.logoCoca{
+    position: relative;
+    align-self: center;
+    width: 1291px;
+    height: 636px;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 212px;
+    height: 88px;
+    left: 584px;
+    top: 408px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: right;
+}
+
+.garrafaCoca{
+    position: absolute;
+    width: 201px;
+    height: 755px;
+    left: 840px;
+    top: 72px;
+}
+
+.mapa{
+    position: absolute;
+    width: 64px;
+    height: 34.48px;
+    left: 1701px;
+    top: 812px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.global{
+    position: absolute;
+    width: 45px;
+    height: 14px;
+    left: 1711px;
+    top: 846px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+}
+
+@media(max-width: 768px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%), linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
+        mix-blend-mode: normal;
+        color: white;
+        user-select: none;
+    }
+
+    header{
+        height: 30px;
+    }
+
+    .menu{
+        position: absolute;
+        width: 97px;
+        height: 15px;
+        left: 25px;
+        top: 0px;
+    }
+
+    .linha1, .linha2, .linha3{
+        border: 1px solid #FFFFFF;
+    
+    }
+
+    .linha1{
+        position: absolute;
+        width: 24px;
+        height: 0px;
+        left: 25px;
+        top: 42px;
+    
+    }
+    
+    .linha2{
+        position: absolute;
+        width: 36px;
+        height: 0px;
+        left: 25px;
+        top: 50px;
+    }
+    
+    .linha3{
+        position: absolute;
+        width: 24px;
+        height: 0px;
+        left: 25px;
+        top: 58px;
+    }
+
+    .menuText{
+        position: absolute;
+        width: 41px;
+        height: 19px;
+        left: 81px;
+        top: 41px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .logoCoca{
+        position: absolute;
+        width: 360px;
+        height: 177.35px;
+        left: 0px;
+        top: 231px;
+    }
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        position: absolute;
+        width: 94px;
+        height: 40px;
+        left: 133px;
+        top: 82px;
+    }
+
+    .garrafaCoca{
+        position: absolute;
+        width: 119.8px;
+        height: 450px;
+        left: 120px;
+        top: 130px;
+    }
+    .mapa{
+        position: absolute;
+        width: 64px;
+        height: 34.48px;
+        left: 271px;
+        top: 568px;
+    }
+    
+    .global{
+        position: absolute;
+        width: 45px;
+        height: 14px;
+        left: 280px;
+        top: 601px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
 }
